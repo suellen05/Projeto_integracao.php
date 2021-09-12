@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;  
+ 
+}
+
+.site{
+    width: 600px;
+    margin: 0px auto;
+   }
+
+.logo-empresa{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width:100px;
+     height: 100px;
+   }
+.nome{
+    text-align: center;
+   
+}
+.header{
+    width: 100%;
+    position: -webkit-sticky;
+    background: rgb(48, 44, 44);
+
+}
+    /*MInha conta / cadastro*/
+
+nav a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align:center;  
+    padding: 3px 100px;
+    text-decoration: none;
+     /*MInha conta / cadastro*/
+     
+}
+   
+.buscar{
+    float:right;
+    margin:auto;
+    padding:2px 23px;
+    color:  #f2f2f2;
+
+    
+}
+/*Acessorios / bolsas / mais vendidas*/
+._db{
+    text-decoration: none;
+    padding: 8px 80px;
+    font-size: 16px;
+    font-family: open sans-serif;
+    color:rgb(77, 60, 60);
+    font: weight 1px;
+    /*Acessorios / bolsas / mais vendidas*/
+}
+
+    /*logo whats*/
+
+    .whats{
+
+        width:30px;
+        height: 30px;
+        padding: 10px 30px;
+        text-align: center;
+     
+    }
+
+    p{
+      
+        padding:15px 30px;
+        text-align: center;
+    }
+
+  
+    
+    .formulario{
+    width: 600px;
+    padding: 30px;
+    border: 1px solid #CCC;
+    margin: 0 auto;
+
+    }
+
+    .formulario p{
+        width: 100%;
+        font-size: 1.5em;
+
+    }
+
+    .campo{
+        width: 50%;
+        margin: 15px 300px;
+
+    }
+    .campo label,
+    .campo span{    
+        padding-left: 10px;
+        font-size: 1.1em;
+        display: block;
+        width: 100%;
+               
+    }
+
+    .radiobox label{
+        width: auto;
+        display: inline-block;
+    }
+
+    input[type=text],
+    input[type=email],
+    textarea{
+        width: 100%;
+        padding-left:10px;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 15px;
+        border: 1px solid #CCC;
+        outline: none;
+    }
+
+    input#nao{
+        margin-left: 30px;
+
+    }
+    textarea{
+        line-height: 20px;
+        padding: 10px;
+        height: 90px;
+        resize: none;
+    }
+
+        
+    .row{
+        margin-right: 15px;
+        margin-left: 15px;
+        text-align: center;
+        border: 1px solid rgb(36, 32, 32);
+  
+    }
+
+    
+    footer{
+      background: rgb(114, 121, 107);
+      margin-top: -30px;
+      padding:15px 15px;
+      font-size: 110%;
+      color: rgb(237, 236, 231);
+  
+      
+
+  }
+  a{
+    text-decoration: none;
+    color: cornsilk;
+    font-size: 85%;
+   
+  }
+
+  .h5{
+    font-size: 30%;
+    
+
+  }
+
+  /*rodape*/
+  .rodape{
+    display: flex;
+    justify-content: space-around;
+
+      
+
+  }
+  footer{
+      background: rgb(114, 121, 107);
+      margin-top: -30px;
+      padding:15px 15px;
+      font-size: 110%;
+      color: cornsilk;
+  
+      
+  }
+  a{
+    text-decoration: none;
+    color: cornsilk;
+    font-size: 85%;
+   
+  }
+
+  .h5{
+    font-size: 30%;
+    
+
+  }
+  

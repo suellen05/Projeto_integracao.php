@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+.site{
+    width: 600px;
+    margin: 0px auto;
+   }
+
+.logo-empresa{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width:140px;
+     height: 150px;
+   }
+.nome{
+    text-align: center;
+   
+}
+.header{
+    width: 100%;
+    position: -webkit-sticky;
+    background: rgb(48, 44, 44);
+
+}
+    /*MInha conta / cadastro*/
+
+nav a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align:center;  
+    padding: 3px 100px;
+    text-decoration: none;
+     /*MInha conta / cadastro*/
+     
+}
+   
+.buscar{
+    float:right;
+    margin:auto;
+    padding:2px 23px;
+    color:  #f2f2f2;
+
+    
+}
+/*Acessorios / bolsas / mais vendidas*/
+._db{
+    text-decoration: none;
+    padding: 8px 80px;
+    font-size: 16px;
+    font-family: open sans-serif;
+    color:rgb(77, 60, 60);
+    font: weight 1px;
+    /*Acessorios / bolsas / mais vendidas*/
+
+}
+/*foto zoom e fotos bolsas*/
+.zoom{
+    border: 2px solid rgb(36, 32, 32);
+    margin: 20px;
+    overflow: hidden;
+    
+}
+.zoom figure{
+    margin:0;
+}
+
+.compras img{
+    transition: transform 0.3s ease;
+    width: 230px;
+    padding: 40px;
+   
+
+}
+
+    .compras{
+        color:rgb(54, 53, 53);
+        display:inline-block;
+        border: 1px solid rgb(36, 32, 32);
+        margin: 5px;
+        font-size: 18px;
+        text-align:center;  
+
+    }
+    
+
+.compras:hover{
+    opacity: 1px;
+
+}
+.compras img:hover{
+   
+    transform: scale(1.1);
+}   
+/*banner*/
+.imagem-responsiva{
+padding: 50px 50px;
+
+   
+}
+.imagem-banner{
+    width: 1180px;
+    height: 410px;
+    padding: 1px 60px;
+    border: 2px solid rgb(36, 32, 32);
+    margin: 20px;
+     
+}
+/*logos servicos*/
+.servicos img{
+    width: 130px;
+    padding: 80px;
+    padding-top: 10px;
+    black
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  footer{
+      background: rgb(114, 121, 107);
+      margin-top: -30px;
+      padding:15px 15px;
+      font-size: 110%;
+      color: cornsilk;
+  
+      
+
+  }
+  a{
+    text-decoration: none;
+    color: cornsilk;
+    font-size: 85%;
+   
+  }
+
+  .h5{
+    font-size: 30%;
+    
+
+  }

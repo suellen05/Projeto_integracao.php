@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+.site{
+    width: 600px;
+    margin: 0px auto;
+   }
+
+.logo-empresa{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width:140px;
+     height: 150px;
+   }
+.nome{
+    text-align: center;
+   
+}
+.header{
+    width: 100%;
+    position: -webkit-sticky;
+    background: rgb(48, 44, 44);
+
+}
+    /*MInha conta / cadastro*/
+
+nav a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align:center;  
+    padding: 3px 100px;
+    text-decoration: none;
+     /*MInha conta / cadastro*/
+     
+}
+   
+.buscar{
+    float:right;
+    margin:auto;
+    padding:2px 45px;
+    color:  #f2f2f2;
+
+    
+}
+    
+   /*Acessorios / bolsas / mais vendidas*/
+._db{
+    text-decoration: none;
+    padding: 8px 80px;
+    font-size: 16px;
+    font-family: open sans-serif;
+    color:rgb(77, 60, 60);
+    font: weight 1px;
+}
+    /*Acessorios / bolsas / mais vendidas*/
+    .formulario{
+        width: 800px;
+        padding: 20px 50px;
+        border: 5px solid rgb(36, 32, 32);
+        margin: 0 auto;
+    
+        }
+    
+        .formulario p{
+            width: 100%;
+            font-size: 1.2em;
+    
+        }
+    
+        .campo{
+            width: 100%;
+            margin: 15px 0;
+    
+        }
+         
+        .label{
+            width: auto;
+            display: inline-block;
+        }
+    
+        input[type=text],
+        input[type=email],
+        textarea{
+            width: 100%;
+            padding-left:10px;
+            height: 30px;
+            line-height: 30px;
+            border-radius: 15px;
+            border: 3px solid #CCC;
+            outline: none;
+        }
+                              
+        .botao{
+            display: block;
+            background-color: #ccc;
+            height: 35px;
+            border: none;
+            outline: 0;
+            cursor: pointer;
+            width: 100px;
+            margin: 0 auto;
+            text-align: center;
+            border-radius: 15px;
+            
+        }
+
+     
+        .rodape{
+            display: flex;
+            justify-content: space-around;
+          }
+        
+          footer{
+              background: rgb(114, 121, 107);
+              margin-top: -30px;
+              padding:15px 15px;
+              font-size: 110%;
+              color: cornsilk;
+          
+              
+        
+          }
+          a{
+            text-decoration: none;
+            color: cornsilk;
+            font-size: 85%;
+           
+          }
+        
+          .h5{
+            font-size: 30%;
+            
+        
+          }
+ 
